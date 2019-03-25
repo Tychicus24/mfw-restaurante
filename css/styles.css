@@ -1,0 +1,75 @@
+.wrap {
+    min-height: 100vh;
+}
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+    padding-bottom: 300px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+
+.justify-content-center{
+    z-index: 10;
+    position: absolute;
+    /* text-align: center; */
+    color: white;
+    /* margin-bottom: 48%;
+    margin-bottom: 48%; */
+    /* left: 50%; */
+    background:rgb(235, 103, 15);
+    padding: 15px;
+    border-radius: 10px;
+ 
+}
+
+h2{
+    color: white;
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main_img1 {
+    background-image: url('../img/wood-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_img2 {
+    background-image: url('../img/restaurant-2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_img3 {
+    background-image: url('../img/farm-2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_logo{
+    max-height: 300px;
+}
+
+hr {
+    height: 10px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background-color: rgb(184, 180, 180);
+    border-end-start-radius: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .our-story {
+margin-bottom: 250px;
+  }
