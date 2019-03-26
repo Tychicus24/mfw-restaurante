@@ -1,3 +1,5 @@
+
+
 .wrap {
     min-height: 100vh;
 }
@@ -14,19 +16,21 @@
     align-items: center; */
   }
 
-.justify-content-center{
+.gallery-button{
     z-index: 10;
     position: absolute;
-    /* text-align: center; */
+    text-align: center;
     color: white;
     /* margin-bottom: 48%;
     margin-bottom: 48%; */
-    /* left: 50%; */
-    background:rgb(235, 103, 15);
+    margin-right: 50%;
+    margin-left:45;
+    background:orangered;
     padding: 15px;
     border-radius: 10px;
  
 }
+
 
 h2{
     color: white;
@@ -65,11 +69,82 @@ hr {
     margin-top: 200px;
     margin-bottom: 50px;
     background-color: rgb(184, 180, 180);
-    border-end-start-radius: 4px;
     margin-left: 40px;
     margin-right: 40px;
   }
 
+  .story{
+
+  }
   .our-story {
-margin-bottom: 250px;
+    margin-bottom: 250px;
+    display: flex;
+    /* justify-content: center; */
+    align-content: space-around;
+    /* align-content: center; */
+    /* margin-right: 50;
+    margin-left: 50; */
+    /* font-family: 'Galada', cursive; */
+  }
+
+  .blackfont{
+      color: black;
+      font-size: px;
+    }
+
+  h3{
+    font-family: 'Galada', cursive;
+    font-size: 125px;
+    color: orangered;
+    text-shadow: 2px 2px 6px grey;
+    }
+
+    .smaller{
+      font-family: 'Galada', cursive;
+      font-size: 80px;
+      color: orangered;
+      text-shadow: 2px 2px 6px grey;
+      }
+
+  .menu{
+      margin-top: 200px;
+      background-image: url('../img/food-review.jpg');
+      background-position: center;
+      background-size: cover;
+      max-height: 600px;
+      overflow-y:scroll;
+    }
+
+   
+    .no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+     }
+  
+     .panel{
+
+     }
+
+     .text-block{
+      z-index: 10;
+      position: relative;
+      text-align: center;
+      color: white;
+      /* margin-bottom: 48%;
+      margin-bottom: 48%; */
+      margin-right: 25%;
+      margin-left:25;
+      background: rgba(0, 0, 0, .3);
+      padding: 15px;
+  /* .tab-pane{
+    height:300px;
+    background-image: url('../img/food-review.jpg');
+    overflow-y:scroll;
+    width:100%;
+   */
+  }
+     
+  
+  .contact-form {
+    background-color: orangered;
   }

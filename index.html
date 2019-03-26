@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Restaurante</title>
+	<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -40,7 +41,7 @@
 	</nav>
 	<!--------------Carousel Section-------------------->
 	<div class="container-fluid wrap">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div id="myCarousel" class="carousel slide"  data-interval="false" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="myCarousel" data-slide-to="1"></li>
@@ -61,11 +62,9 @@
 					<div class="carousel-caption">
 						<h1>From farm to table.</h1>
 						<h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim aliquam recusandae repellat nulla repudiandae exercitationem accusantium eum, dignissimos expedita repellendus voluptatibus distinctio dolore quos! Rem!</h2>
-						<a class="nav justify-content-center active" href="#"><h2>Browse Gallery</h2></a>
+						<div>
+							<a class="gallery-button" href="#"><h2>Browse Gallery</h2></a>
 					</div>
-					<!-- <div class="pills">
-						
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -90,19 +89,63 @@
 	<div>
 		<hr>
 	</div>
-		<div class="our-story container">
-				<div class="row">
-					<div class="col-4-xs col-4-md">Our Story</div>	
-					<div class="col-8-xs col-8-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.</div>
-					<br>
-					<div class="col-8-xs col-8-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.</div>
-					<br>
-					<div class="col-8-xs col-8-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.</div>
-					<br>
-					<div class="col-8-xs col-8-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.</div>
-					<br>
+		<div class="container-fluid-story">
+			<div class="container our-story">
+					<div class="row">
+							<div class="col-sm-6 col-md-6"><h3>Our Story</h3>
+							<div>
+									<h2><span class="blackfont"><b>One man. One Dream.</b</span></h2>	
+							</div>
+							<!-- <div class="col-sm-6 story">
+									<img src="../img/our-story.png" alt="Our Story" class="img-responsive main_logo"> -->
+							</div>
+							<div class="col-sm-6 col-md-6">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.
+								<p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.
+								<p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.
+								<p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem architecto illo dignissimos placeat. Cum sed nobis maiores omnis sint nostrum. Cupiditate commodi beatae maiores officiis modi suscipit minima non nihil.
+								<p> 
+							</div>
+					</div>
+			</div>
+			</div>
+			<div class="container-fluid menu">
+				<div class="row no-gutters">
+					<div class="col-sm-12 panel">
+							<img src="../img/food_review.jpg" alt="Produce" class="img-responsive center-block" width=100% max-height=500px;>
+							<div class="text-block"> 
+									<h3><span class="smaller">Fresno Bee</span></h3>
+									<h2>"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the central valley in every bite." </h2>
+								  </div>
+					</div>
+							
+							<img src="../img/black_linen.png" alt="Black Linen" class="img-responsive center-block" width=100% max-height=600px>
+					</div>
+					<div class="col-sm-12 contact-form">
+							<iframe height="590"
+							allowTransparency="true"
+							frameborder="0"
+							scrolling="no"
+							style="width:100%;border:none"
+							src="https://tychicus24.wufoo.com/embed/z1hyln5w1qjxkxu/">
+					  <a href="https://tychicus24.wufoo.com/forms/z1hyln5w1qjxkxu/">
+						Fill out my Wufoo form!
+					  </a>
+					</iframe>
+											  <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">
+						<span class="notranslate">
+						  HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.
+						</span>
+					  </div>
+										  
+					</div>
 				</div>
-
+			</div>	  
+					
+					
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
