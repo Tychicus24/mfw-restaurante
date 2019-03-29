@@ -164,92 +164,17 @@ hr {
 
 .story_year {
   font-family: 'Playfair Display', serif;
-  /*font-size: 200px;*/
+  font-size: 200px;
   font-weight: 700;
   z-index: -1;
   position: absolute;
   color: rgba(149, 147, 147, 0.2);
-  /* text-align:center;
+  text-align:center;
   margin-left: 11%;
   margin-right: 10%;
-  margin-bottom: 10%; */
+  margin-bottom: 10%;
   
 }
-
-
-@media (min-width: 200px) {
-    .story_year {
-        font-size: 100px;
-        margin-top: 45%;
-        
-    }
-
-@media screen and (min-width: 400px) {
-    .story_year {
-        font-size: 120px;
-        margin-bottom: 10%;
-        Margin-left: 20%;
-        
-    }
-}
-/* @media (min-width: 480px) {
-    .story_year {
-        font-size: 120px;
-        margin-bottom: 10%;
-        Margin-left: 30%;
-        
-    }
-} */
-
-@media (min-width: 620px) {
-    .story_year {
-        font-size: 120px;
-        margin-bottom: 15%;
-    }
-}
-
-/* @media (min-width: 670px) and (max-width: 740px) {
-    .story_year {
-        font-size: 120px;
-        margin-bottom: 10%;
-        margin-left: 25%;
-    }
-} */
-
-@media (min-width: 800px) {
-   .story_year {
-        font-size: 125px;
-         margin-bottom: 15%;
-    }
-}
-
-/* @media (min-width: 900px) {
-   .story_year {
-        font-size: 125px;
-         margin-bottom: 15%;
-    }
-} */
-
-
-/* @media (min-width: 1000px) and (max-width: 1199px) {
-    .story_year {
-        font-size: 150px;
-        margin-bottom: 15%;
-    }
-} */
-@media (min-width: 1200px) {
-    .story_year {
-        font-size: 150px;
-        margin-bottom: 15%;
-    }
-}
-
-/* @media (min-width: 1500px) {
-    .story_year {
-        font-size: 150px;
-        margin-bottom: 25%;
-    }
-} */
 
 
 /* REVIEW section*/  
@@ -265,6 +190,7 @@ hr {
     background-color: rgba(20, 20, 20, .6);
     padding: 10px;
     margin-top: 145px;
+    margin-bottom: 145px;
     border-radius: 5px;
   }
 
@@ -316,7 +242,9 @@ hr {
 
 
 .food{
-
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #menu .nav   li a:hover{
@@ -332,4 +260,3 @@ hr {
   border: none;
 }
 
-}
