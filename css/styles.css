@@ -129,11 +129,13 @@ hr {
   }
 
   #our_story #review #menu{
-    min-height: 600px;
+    min-height: 700px;
+    margin-bottom: 50px;
   }
 
   #our_story .row{
     margin-top: 30px;
+    margin-bottom: 70px;
 
   }
 
