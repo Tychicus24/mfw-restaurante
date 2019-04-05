@@ -1,5 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Raleway:700,400,300);
 
+/* Global */
+#our_story #review #menu #contact{
+  min-height: 700px;
+  margin-bottom: 50px;
+}
 
 .nav li a:hover{
   background-color: transparent;
@@ -128,11 +133,7 @@ hr {
     margin-right: 40px;
   }
 
-  #our_story #review #menu{
-    min-height: 700px;
-    margin-bottom: 50px;
-  }
-
+  
   #our_story .row{
     margin-top: 30px;
     margin-bottom: 70px;
@@ -166,8 +167,17 @@ hr {
   z-index: -1;
   position: absolute;
   color: rgba(149, 147, 147, 0.2);
+  /* margin-left: 15%; */
 }
 
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}
 
 /* REVIEW section*/  
   #review {
@@ -252,3 +262,51 @@ hr {
   border: none;
 }
 
+#contact{
+  background-color: #f8512f;
+}
+
+.contact_form{
+  background-color: #ff6633;
+  color:#fff;
+  border: 1px solid #fff;
+
+}
+ 
+.contact_form form{
+  padding: 5% 0;
+}
+
+.contact_form span{
+  color: #ff0d06;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4em;
+}
+
+#contact p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1em;
+}
+
+#contact_fine_print{
+  font-size: 12px !important;
+  text-align: center;
+}
+
+address {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.contact-bottom{
+  margin-top:  50px;
+  margin-bottom: 50px;
+}
