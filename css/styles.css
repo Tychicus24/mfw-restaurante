@@ -167,8 +167,17 @@ hr {
   z-index: -1;
   position: absolute;
   color: rgba(149, 147, 147, 0.2);
+  /* margin-left: 15%; */
 }
 
+@media screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}
 
 /* REVIEW section*/  
   #review {
@@ -253,18 +262,22 @@ hr {
   border: none;
 }
 
-.contact-form{
+#contact{
+  background-color: #f8512f;
+}
+
+.contact_form{
   background-color: #ff6633;
-  colr:#fff;
+  color:#fff;
   border: 1px solid #fff;
 
 }
-
-.contac_form form{
+ 
+.contact_form form{
   padding: 5% 0;
-  ,contact_form span
 }
-.contact-form span{
+
+.contact_form span{
   color: #ff0d06;
 }
 
